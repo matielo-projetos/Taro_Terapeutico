@@ -743,6 +743,272 @@ h2 {
   }
 }
 
+@media (max-width: 699px) {
+  .site-header {
+    min-height: 62px;
+    gap: 0.5rem;
+    padding: 0.55rem 0.9rem;
+  }
+
+  .wordmark__name {
+    font-size: clamp(1.05rem, 5.2vw, 1.3rem);
+    letter-spacing: 0.045em;
+  }
+
+  .wordmark__caption {
+    margin-top: 0.22rem;
+    font-size: 0.48rem;
+    letter-spacing: 0.16em;
+  }
+
+  .wordmark__star {
+    margin-top: 0.12rem;
+    font-size: 0.68rem;
+  }
+
+  .header-cta {
+    min-height: 36px;
+    padding: 0.5rem 0.72rem;
+    font-size: 0.58rem;
+    letter-spacing: 0.06em;
+  }
+
+  .hero,
+  .reading,
+  .about,
+  .offerings,
+  .closing {
+    padding-inline: 0.9rem;
+  }
+
+  .hero {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    column-gap: 0.65rem;
+    row-gap: 0;
+    padding-block: 1rem 1.2rem;
+  }
+
+  .hero__copy {
+    display: contents;
+  }
+
+  .hero__copy > .eyebrow {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 0.35rem;
+  }
+
+  .hero h1 {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 10ch;
+    margin-bottom: 0.35rem;
+    font-size: clamp(1.58rem, 6.6vw, 1.8rem);
+    letter-spacing: -0.035em;
+    line-height: 1;
+  }
+
+  .hero .ornament-rule {
+    grid-column: 1;
+    grid-row: 3;
+    margin-block: 0.35rem 0.5rem;
+  }
+
+  .hero__intro {
+    grid-column: 1;
+    grid-row: 4;
+    margin-bottom: 0.6rem;
+    font-size: clamp(0.72rem, 3.15vw, 0.78rem);
+    line-height: 1.4;
+  }
+
+  .hero .button {
+    grid-column: 1;
+    grid-row: 5;
+    justify-self: start;
+    min-height: 40px;
+    padding: 0.65rem 0.82rem;
+    font-size: 0.61rem;
+    letter-spacing: 0.08em;
+  }
+
+  .hero__art {
+    grid-column: 2;
+    grid-row: 1 / 6;
+    width: 100%;
+    max-width: none;
+    align-self: center;
+  }
+
+  .service-notes {
+    grid-column: 1 / -1;
+    grid-row: 6;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.3rem;
+    margin-top: 0.8rem;
+  }
+
+  .service-notes li:last-child {
+    grid-column: auto;
+  }
+
+  .service-notes li {
+    align-items: flex-start;
+    gap: 0.28rem;
+    font-size: 0.56rem;
+    line-height: 1.35;
+  }
+
+  .service-notes svg {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+
+  .reading {
+    grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.22fr);
+    align-items: center;
+    gap: 0.65rem;
+    padding-block: 2rem;
+  }
+
+  .reading__art {
+    min-height: 9rem;
+  }
+
+  .reading__paper-label {
+    left: 2%;
+    width: 5.4rem;
+    min-height: 6rem;
+  }
+
+  .reading__rosette {
+    right: -2%;
+    bottom: 0;
+    width: 6.6rem;
+    height: 6.6rem;
+  }
+
+  .reading h2,
+  .about h2,
+  .offerings h2,
+  .closing h2 {
+    font-size: clamp(1.55rem, 6.7vw, 1.85rem);
+    letter-spacing: -0.025em;
+    line-height: 1.06;
+  }
+
+  .reading__copy .eyebrow,
+  .about__copy .eyebrow,
+  .offerings__copy .eyebrow,
+  .closing .eyebrow {
+    margin-bottom: 0.4rem;
+    font-size: 0.59rem;
+    letter-spacing: 0.17em;
+  }
+
+  .reading__copy .ornament-rule,
+  .about__copy .ornament-rule,
+  .offerings__copy .ornament-rule {
+    margin-block: 0.55rem;
+  }
+
+  .reading__copy p:not(.eyebrow),
+  .about__copy p:not(.eyebrow),
+  .offerings__copy p:not(.eyebrow),
+  .closing > p:not(.eyebrow) {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+
+  .about {
+    min-height: 0;
+    align-items: flex-start;
+    padding-block: 2rem;
+  }
+
+  .about__copy {
+    max-width: 86%;
+  }
+
+  .about__mark {
+    right: -3rem;
+    width: 8rem;
+    height: 8rem;
+    opacity: 0.2;
+  }
+
+  .about__moon {
+    left: 0.5rem;
+    font-size: 2.8rem;
+  }
+
+  .about__flower {
+    right: 0.5rem;
+    font-size: 1.4rem;
+  }
+
+  .offerings {
+    grid-template-columns: minmax(0, 1.45fr) minmax(5.5rem, 0.55fr);
+    align-items: center;
+    gap: 0.65rem;
+    padding-block: 2rem;
+  }
+
+  .offerings__intro {
+    margin-top: 0.7rem;
+    font-size: 0.72rem;
+    line-height: 1.45;
+  }
+
+  .offering-list {
+    margin-top: 0.9rem;
+  }
+
+  .offering-list li {
+    gap: 0.55rem;
+    padding-block: 0.65rem;
+    font-size: 1.05rem;
+  }
+
+  .offering-list li span {
+    font-size: 0.62rem;
+  }
+
+  .offerings__card {
+    width: min(100%, 6.5rem);
+    padding: 0.55rem;
+    transform: rotate(4deg);
+  }
+
+  .offerings__card-index,
+  .offerings__card-caption {
+    font-size: 0.52rem;
+  }
+
+  .closing {
+    padding-block: 2.75rem;
+  }
+
+  .closing > p:not(.eyebrow) {
+    margin-bottom: 1rem;
+  }
+
+  .whatsapp-float {
+    right: max(0.75rem, env(safe-area-inset-right));
+    bottom: max(0.75rem, env(safe-area-inset-bottom));
+    min-height: 42px;
+    gap: 0.35rem;
+    padding: 0.55rem 0.75rem;
+    font-size: 0.62rem;
+  }
+
+  .whatsapp-float svg {
+    width: 1.15rem;
+    height: 1.15rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
