@@ -10,15 +10,16 @@ Landing page responsiva de Maria Eduarda, taróloga brasileira, feita com HTML, 
 - Serviços: Tarô Terapêutico, Baralho Cigano e Rituais Energéticos.
 - O Tarô é apresentado como ferramenta simbólica de autoconhecimento, reflexão, consciência, compreensão de padrões e direcionamento — não como previsão do futuro.
 - A interface segue a referência editorial fornecida: papel creme e pêssego, tipografia serifada nos títulos, grafite e verde-terroso, detalhes artesanais e símbolos celestiais discretos.
-- A referência completa está em `referencias/referencia-site.png`. A colagem original do site é uma ilustração vetorial própria, em `assets/images/hero-collage.svg`.
-- Nenhum retrato, depoimento, dado profissional, contato ou perfil social foi inventado. A foto original da Maria não está disponível isoladamente em `assets/images/` e não foi recriada.
+- A referência completa está em `referencias/referencia-site.png`. A ilustração editorial disponível para a composição é `assets/images/hero-collage.svg`, complementada por recortes e símbolos em CSS.
+- A fotografia de uma leitura de Tarô que aparece no hero da referência está incorporada apenas em `referencias/referencia-site.png`; não há um arquivo fotográfico original separado em `assets/images/`. Para reproduzir essa parte com fidelidade, ainda é necessário fornecer a fotografia original em arquivo separado. Não foi criada nem presumida uma fotografia substituta.
+- Nenhum retrato, depoimento, dado profissional, contato ou perfil social foi inventado.
 
 ## Estrutura
 
 - `index.html`: página semântica, conteúdo e metadados iniciais para SEO.
 - `css/style.css`: identidade visual e layout mobile-first com adaptações para telas maiores.
-- `js/config.js`: configuração de marca, público, serviços e telefone opcional do WhatsApp.
-- `js/main.js`: ativa os botões de agendamento somente quando há um telefone válido configurado.
+- `js/config.js`: configuração de marca, público, serviços, telefone e mensagens do WhatsApp.
+- `js/main.js`: monta os links de WhatsApp com o telefone e a mensagem definidos na configuração.
 - `assets/images/hero-collage.svg`: ilustração editorial criada para a composição principal.
 - `referencias/referencia-site.png`: referência visual fornecida.
 

@@ -9,8 +9,8 @@ window.TaroTherapeuticConfig = Object.freeze({
   appointmentFormat: "Online",
   whatsappPhone: "5548988290707",
   whatsappMessages: {
-    journey:
-      "Olá, Maria! Conheci seu trabalho pelo site e gostaria de iniciar minha jornada com o Tarô Terapêutico. ✨",
+    appointment:
+      "Olá, Maria! Conheci seu trabalho pelo site e gostaria de agendar minha leitura de Tarô Terapêutico. ✨",
     selfKnowledge:
       "Olá, Maria! Conheci seu trabalho pelo site e quero entender melhor como o Tarô Terapêutico pode me ajudar no meu processo de autoconhecimento. ✨"
   }
