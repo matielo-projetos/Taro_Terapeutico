@@ -7,6 +7,11 @@ window.TaroTherapeuticConfig = Object.freeze({
   services: ["Tarô Terapêutico", "Baralho Cigano", "Rituais Energéticos"],
   audience: "Brasileiros residentes em Portugal",
   appointmentFormat: "Online",
-  // Preencha com DDI e número, apenas dígitos; deixe vazio até o telefone ser informado.
-  whatsappPhone: ""
+  whatsappPhone: "5548988290707",
+  whatsappMessages: {
+    journey:
+      "Olá, Maria! Conheci seu trabalho pelo site e gostaria de iniciar minha jornada com o Tarô Terapêutico. ✨",
+    selfKnowledge:
+      "Olá, Maria! Conheci seu trabalho pelo site e quero entender melhor como o Tarô Terapêutico pode me ajudar no meu processo de autoconhecimento. ✨"
+  }
 });

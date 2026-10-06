@@ -828,9 +828,9 @@ h2 {
     grid-row: 5;
     justify-self: start;
     min-height: 40px;
-    padding: 0.65rem 0.82rem;
-    font-size: 0.61rem;
-    letter-spacing: 0.08em;
+    padding: 0.65rem 0.5rem;
+    font-size: 0.52rem;
+    letter-spacing: 0.04em;
   }
 
   .hero__art {
